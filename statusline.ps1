@@ -1,5 +1,5 @@
 # Claude Code Status Line — PowerShell version (Windows)
-# https://github.com/Bonny07/claude-statusline
+# https://github.com/Bonny07/pawline
 #
 # Usage: Add to settings.json (usually at %USERPROFILE%\.claude\settings.json):
 #   "statusLine": {
@@ -137,5 +137,8 @@ if ($lines_add -gt 0 -or $lines_rm -gt 0) {
 $out += "${SEP}${C_DIM}`u{23F1}${C_R} ${C_WHITE}${dur_str}${C_R}"
 $out += "${SEP}${C_WHITE}${cost_str}${C_R}"
 $out += $rl_str
+
+# Paw!
+$out += " `u{1F43E}"
 
 Write-Host $out -NoNewline

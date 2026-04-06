@@ -1,9 +1,9 @@
-# claude-statusline
+# pawline 🐾
 
 A custom status line for [Claude Code](https://docs.anthropic.com/en/docs/claude-code) CLI that displays real-time session info with color-coded indicators.
 
 ```
-Opus 4.6 │ MED │ ●●○○○○○○○○ 17% │ in24K out3K │ +42 -8 │ ⏱ 3m │ $0.52
+Opus 4.6 │ MED │ ●●○○○○○○○○ 17% │ in24K out3K │ +42 -8 │ ⏱ 3m │ $0.52 🐾
 ```
 
 ## What it shows
@@ -93,7 +93,7 @@ All colors use RGB true color (`\033[38;2;R;G;Bm`). Edit the color variables at 
 ## Screenshot
 
 ```
-MYPROJECT │ Opus 4.6 │ MED │ ●●●●●○○○○○ 47% │ in156K out12K │ +120 -34 │ ⏱ 12m │ $2.18
+MYPROJECT │ Opus 4.6 │ MED │ ●●●●●○○○○○ 47% │ in156K out12K │ +120 -34 │ ⏱ 12m │ $2.18 🐾
                                   ↑ context bar turns orange at 50%
 ```
 

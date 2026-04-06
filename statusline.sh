@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Claude Code Status Line — custom styled status bar
-# https://github.com/Bonny07/claude-statusline
+# https://github.com/Bonny07/pawline
 #
 # Usage: Add to ~/.claude/settings.json:
 #   "statusLine": {
@@ -144,5 +144,8 @@ out="${out}${SEP}${C_WHITE}${cost_str}${C_R}"
 
 # Rate limit
 out="${out}${rl_str}"
+
+# Paw!
+out="${out} 🐾"
 
 echo -e "$out"
